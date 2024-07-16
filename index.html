@@ -3,13 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/logo_aja.png" type="image/x-icon">
 
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topic Listing Bootstrap 5 Template</title>
+        <title>ISBN</title>
 
         <!-- CSS FILES -->        
+         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +22,19 @@
 
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">  
+        
+        <!-- data table -->
+        <link href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" rel="stylesheet">  
+        <link href="https://cdn.datatables.net/responsive/3.0.2/css/responsive.dataTables.css" rel="stylesheet">  
+
+        <!-- end datatable -->
+        
+
+
+
+
+        
 <!--
 
 TemplateMo 590 topic listing
@@ -278,6 +292,19 @@ https://templatemo.com/tm-590-topic-listing
                                                         <span class="badge bg-advertising rounded-pill ms-auto">50</span>
                                                     </div>
 
+                                                    <table id="example" class="display responsive nowrap" style="width:100%; margin-top: 3%;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Name</th>
+                                                                <th>Position</th>
+                                                                <th>Office</th>
+                                                                <th>Extn.</th>
+                                                                <th>Start date</th>
+                                                                <th>Salary</th>
+                                                            </tr>
+                                                        </thead>
+                                                       
+                                                    </table>
                                                     <!-- <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt=""> -->
                                                 </a>
                                             </div>
@@ -649,13 +676,48 @@ https://templatemo.com/tm-590-topic-listing
             </div>
         </footer>
 
-
-        <!-- JAVASCRIPT FILES -->
+         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
 
+        <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+        <script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
+        <script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.dataTables.js"></script>
+        <!-- js data table -->
+        <script>
+            $.ajax({
+                url: 'data_bip.txt',
+                success: function(data) {
+                    console.log('AJAX response:', data); // Log the response data to the console
+                    new DataTable('#example', {
+                        data: data,
+                        columns: [
+                            { data: 'name' },
+                            { data: 'position' },
+                            { data: 'office' },
+                            { data: 'extn' },
+                            { data: 'start_date' },
+                            { data: 'salary' }
+                        ]
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('AJAX error:', textStatus, errorThrown); // Log any errors
+                }
+            });
+           
+        </script>
+ 
+
+
+        <!-- end data table -->
+
+       
+
     </body>
+
+
 </html>
