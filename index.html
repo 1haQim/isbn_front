@@ -281,7 +281,6 @@ https://templatemo.com/tm-590-topic-listing
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-12">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
                                                             <h5 class="mb-2">BIP Online</h5>
@@ -292,7 +291,7 @@ https://templatemo.com/tm-590-topic-listing
                                                         <span class="badge bg-advertising rounded-pill ms-auto">50</span>
                                                     </div>
 
-                                                    <table id="example" class="display responsive nowrap" style="width:100%; margin-top: 3%;">
+                                                    <table id="example" class="display responsive nowrap" style="width:100%;">
                                                         <thead>
                                                             <tr>
                                                                 <th>Name</th>
@@ -306,7 +305,6 @@ https://templatemo.com/tm-590-topic-listing
                                                        
                                                     </table>
                                                     <!-- <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt=""> -->
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -689,12 +687,13 @@ https://templatemo.com/tm-590-topic-listing
         <!-- js data table -->
         <script>
             $.ajax({
-                url: 'data_bip.txt',
+                url: 'https://dummyjson.com/c/c3d3-ffe5-4951-b12b',
                 success: function(data) {
                     console.log('AJAX response:', data); // Log the response data to the console
                     new DataTable('#example', {
                         data: data,
                         columns: [
+                            { data: 'id' },
                             { data: 'name' },
                             { data: 'position' },
                             { data: 'office' },
