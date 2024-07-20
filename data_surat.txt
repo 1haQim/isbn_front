@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "judul": "Surat Pernyataan untuk Penerbit Baru",
+            "deskripsi": "Surat Pernyataan Penerbit"
+        },
+        {
+            "judul": "Surat Keaslian Karya",
+            "deskripsi": "Surat Pernyataan Keaslian Karya"
+        },
+        {
+            "judul": "Surat Permohonan ISBN",
+            "deskripsi": "Surat Permohonan ISBN Baru"
+        },
+        {
+            "judul": "Kebijakan Single Account",
+            "deskripsi": "Kementerian/Lembaga/Pendidikan Tinggi"
+        },
+        {
+            "judul": "Petunjuk Teknis Layanan ISBN",
+            "deskripsi": "Petunjuk Teknis Layanan ISBN Tahun 2022"
+        }
+    ]
+}
