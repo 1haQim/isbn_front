@@ -331,22 +331,17 @@ https://templatemo.com/tm-590-topic-listing
 
                                                             <p class="mb-0">Unduh Book In Print secara online</p>
                                                         </div>
-
-                                                        <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                                        <span class="badge rounded-pill ms-auto" id="totalRowsBip" style="background-color: #16a34a;"></span>
                                                     </div>
 
-                                                    <table id="example" class="display responsive nowrap" style="width:100%;">
+                                                    <table id="doc_bip" class="display responsive nowrap" style="width:100%;">
                                                         <thead>
                                                             <tr>
-                                                                <th>Name</th>
-                                                                <th>Position</th>
-                                                                <th>Office</th>
-                                                                <th>Extn.</th>
-                                                                <th>Start date</th>
-                                                                <th>Salary</th>
+                                                                <th><center>Judul</center></th>
+                                                                <th><center>Deskripsi</center></th>
+                                                                <th><center>Download</center></th>
                                                             </tr>
                                                         </thead>
-                                                       
                                                     </table>
                                                     <!-- <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt=""> -->
                                             </div>
@@ -368,7 +363,7 @@ https://templatemo.com/tm-590-topic-listing
                                                             </p>
                                                         </div>
 
-                                                        <span class="badge bg-finance rounded-pill ms-auto">23.4.2024</span>
+                                                        <span class="badge rounded-pill" style="background-color: #16a34a;width:100%">23.4.2024</span>
                                                     </div>
 
                                                     <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
@@ -387,8 +382,7 @@ https://templatemo.com/tm-590-topic-listing
                                                                 Diinformasikan bahwa Layanan ISBN Online sudah kembali normal. Penerbit yang masih belum bisa akses pada pendaftaran ISBN atau terkendala upload lampiran, silahkan lakukan clear cache terlebih dahulu. Salam sehat dan salam literasi
                                                             </p>
                                                         </div>
-
-                                                        <span class="badge bg-finance rounded-pill ms-auto">23.4.2024</span>
+                                                        <span class="badge rounded-pill " style="background-color: #16a34a; width:100%">23.4.2024</span>
                                                     </div>
 
                                                     <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
@@ -409,14 +403,15 @@ https://templatemo.com/tm-590-topic-listing
                                                         <p class="mb-0">Unduh dokumen-surat secara online</p>
 
                                                     </div>
-                                                    <span class="badge bg-music rounded-pill ms-auto">45</span>
+                                                    <span class="badge rounded-pill ms-auto" id="totalRowsSurat" style="background-color: #16a34a;"></span>
                                                 </div>
 
                                                 <table id="doc_surat" class="display responsive nowrap" style="width:100%;">
                                                     <thead>
                                                         <tr>
-                                                            <th>Judul </th>
-                                                            <th>Deskripsi</th>
+                                                            <th><center>Judul </center></th>
+                                                            <th><center>Deskripsi</center></th>
+                                                            <th><center>Download</center></th>
                                                         </tr>
                                                     </thead>
                                                 </table>
@@ -783,30 +778,32 @@ https://templatemo.com/tm-590-topic-listing
                 });
             }
 
-            
-            
         </script>
         <!-- end -->
 
         <!-- js data table BIP-->
         <script>
             $.ajax({
-                url: 'https://dummyjson.com/c/c3d3-ffe5-4951-b12b',
-                // https://dummyjson.com/c/e7b8-359e-41d6-9789
+                url: 'https://dummyjson.com/c/e7b8-359e-41d6-9789',
                 success: function(data) {
                     console.log('AJAX response:', data.data); // Log the response data to the console
-                    new DataTable('#example', {
+                    var tableElement =  $('#doc_bip').DataTable({
                         data: data.data,
                         columns: [
-                            { data: 'name' },
-                            { data: 'position' },
-                            { data: 'office' },
-                            { data: 'extn' },
-                            { data: 'start_date' },
-                            { data: 'salary' }
+                            { data: 'judul' },
+                            { data: 'deskripsi' },
+                            {
+                                data: null,
+                                defaultContent: '<button type="submit" class="form-control"><a class="nav-link click-scroll" href="#">Download</a></button>', // Tombol aksi
+                                orderable: false
+                            }
                         ],
                         lengthMenu: false 
                     });
+
+                    //total row pada header card
+                    var totalRows = tableElement.data().count();
+                    document.getElementById('totalRowsBip').innerHTML = totalRows;
                 },
                 error: function(jqXHR, textStatus, errorThrown) {
                     console.error('AJAX error:', textStatus, errorThrown); // Log any errors
@@ -822,14 +819,24 @@ https://templatemo.com/tm-590-topic-listing
                 url: 'https://dummyjson.com/c/7162-7e63-4256-98bb',
                 success: function(data) {
                     console.log('AJAX response:', data.data); // Log the response data to the console
-                    new DataTable('#doc_surat', {
+                    var tableElement =  $('#doc_surat').DataTable({
                         data: data.data,
                         columns: [
                             { data: 'judul' },
-                            { data: 'deskripsi' }
+                            { data: 'deskripsi' },
+                            {
+                                data: null,
+                                defaultContent: '<button type="submit" class="form-control"><a class="nav-link click-scroll" href="#">Download</a></button>', // Tombol aksi
+                                orderable: false
+                            }
                         ],
                         lengthMenu: false 
                     });
+
+                    //total row pada header card
+                    var totalRows = tableElement.data().count();
+                    document.getElementById('totalRowsSurat').innerHTML = totalRows;
+
                 },
                 error: function(jqXHR, textStatus, errorThrown) {
                     console.error('AJAX error:', textStatus, errorThrown); // Log any errors
@@ -838,17 +845,6 @@ https://templatemo.com/tm-590-topic-listing
            
         </script>
         <!-- end -->
-
-        
-
-        <!-- data isbn -->
-        <!-- https://dummyjson.com/c/cd7a-89b4-4645-a6e6 -->
-        <!-- end -->
-
-        <!-- data isbn -->
-        <!-- https://dummyjson.com/c/cd7a-89b4-4645-a6e6 -->
-        <!-- end -->
-       
 
     </body>
 
