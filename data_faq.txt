@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "judul": "Bagaimana prosedur pengajuan ISBN?",
+            "deskripsi": "Sejak 1 April 2018 pengajuan ISBN dilakukan secara online di web isbn.perpusnas.go.id \\n Berkas apa saja yang harus disiapkan? \\n Ikuti tahapan registrasi. Registrasi adalah Registrasi Penerbit. \\n Pada tahap ini penerbit menyiapkan Surat Pernyataan (unduh di halaman registrasi) yang sudah diisi dengan benar dan lengkap serta menyiapkan legalitas (bentuk legalitas, seperti : akta notaris, SK Rektor atau MoU, dapat dilihat contohnya pada beranda)"
+        },
+        {
+            "judul": "Jika pendaftaran sudah sukses, langkah apa yang harus dilakukan oleh penerbit selanjutnya?",
+            "deskripsi": "Sesuai notifikasi pada layar, hubungi Tim ISBN di +6221 3812 136 untuk permohonan validasi kemudian lihat email yang diberikan oleh sistem secara otomatis tentang petunjuk/ langkah selanjutnya."
+        },
+        {
+            "judul": "Apakah penerbit lama juga harus melakukan Registrasi Penerbit?",
+            "deskripsi": "Ya. Semua penerbit (baik lama maupun baru) harus melakukan tahap ini untuk mendapatkan akun agar bisa log in pada tahap registrasi ISBN. \\n Bagaimana dengan legalitas penerbit, jika penerbit lama tidak/belum memiliki payung hukum? \\n Legalitas harus tetap dipenuhi untuk kelengkapan administrasi penerbit dan akan memberi kekuatan hukum untuk penerbit itu sendiri."
+        },
+        {
+            "judul": "Apakah ada pembatasan jumlah judul yang diajukan oleh sebuah penerbit?",
+            "deskripsi": "Penerbit hanya diberikan kuota 10 judul/hari \\n Apakah penerbit akan menerima email untuk hasil ISBN yang diajukannya? \\n  Tidak. Penerbit bisa melhat hasil ISBN melalui akunnya masing-masing. ISBN dan Barcode akan keluar bersamaan dan dapat diunduh. Sedangkan KDTyang diminta penerbit, akan berubah warna biru bila selesai proses"
+        },
+        {
+            "judul": "Bagaimana cara mengajukan ISBN untuk terbitan prosiding hasil seminar?",
+            "deskripsi": "Apakah persyaratan sebuah buku yang disajikan untuk anak sama dengan persyaratan buku pada umumnya? \\n Persyaratan prosiding hasil pertemuan disesuaikan dengan ketentuan yang ditetapkan Tim Penilai LIPI/Dikti (lihat contoh prosiding pada beranda). \\n Contoh pengajuan buku anak, lihat contoh pada beranda"
+        },
+        {
+            "judul": "Bagaimana cara mengajukan ISBN buku berjilid? dan bagaimana cara pencantuman ISBN nya pada buku bersangkutan?",
+            "deskripsi": "Buku berjilid mendapat perlakukan berbeda dengan buku lepas biasa (lihat contoh pada beranda). \\n Cantuman ISBN untuk buku berjilid, setiap jilid dari buku tersebut mencantumkan 2 ISBN, yaitu ISBN no.jil.lengkap dan ISBN jilid yang bersangkutan. \\n Apakah ada penerapan ISBN untuk box? \\n Tidak ada ISBN untuk box. \\n ISBN buku berjilid dapat digunakan untuk alat penjualan kolektif dan terpisah. ISBN nomor jilid lengkap dapat digunakan untuk penjualan buku yang dijual secara kolektif (dari jilid pertama-jilid terakhir) sedangkan ISBN tiap jilid, dapat digunakan untuk penjualan buku tersebut secara terpisah (dijual lepas)"
+        },
+        {
+            "judul": "Apakah buku cetak ulang harus diajukan kembali ISBN nya?",
+            "deskripsi": "Tidak. Buku cetak ulang menggunakan ISBN lama. Kecuali jika buku tersebut mengalami perubahan isi yang cukup signifikan, harus diajukan kembali ISBN nya. Jika buku mengalami perubahan judul tetapi isinya tetap, apakah harus diajukan kembali ISBN nya? \\n Ya. Buku tersebut harus diajukan kembali ISBN nya. Namun, perubahan disain sampul atau perubahan warna, tidak harus merubah ISBN \\n Bagaimana mekanisme pengajuan ISBN untuk buku yang sudah pernah mendapat ISBN tapi dengan penerbit yang berbeda? \\n Ajukan permohonan ISBN oleh penerbit baru, dengan menguploadkan persyaratan sesuai prosedur ditambah surat pengalihan dari penerbit pertama ke penerbit kedua atau surat pemutusan kerjasama antara penulis dengan penerbit pertama"
+        },
+        {
+            "judul": "Bagaimana mekanisme serah simpan karya cetak karya rekam untuk memenuhi kewajiban UU no. 13 tahun 2018?",
+            "deskripsi": "Terbitan berupa buku dapat dikirimkan ke : Tim Penerimaan Serah Simpan Karya Cetak Karya Rekam Sub Direktorat Deposit Gedung Perpustakaan Nasional Blok E lantai 7 Jl. Salemba Raya no. 28A Jakarta Pusat. Sedangkan untuk terbitan ebook dikirmkan ke edeposit.perpusnas.go.id"
+        },
+        {
+            "judul": "Apakah Perpustakaan Nasional memberikan bimbingan untuk penerbit menyangkut pendaftaran online ISBN?",
+            "deskripsi": "Ya. Perpustakaan Nasional RI qq Tim ISBN menyediakan bimbingan teknis untuk para penerbit. Bimtek ini ada 3 kategori : \\n 1. Bimtek ISBN online \\n 2. Bimtek iPusnas \\n 3. Bimtek akselerasi/pelaporan penggunaan ISBN \\n Pelaksanaan bimtek iISBN online dapat dilaksanakan kapan saja sesuai permintaan penerbit (penerbit bisa datang langsung di front office layanan ISBN dan Tim ISBN akan membantu & membimbing penerbit melakukan pendaftaran online. Sedangkan bimtek iPusnas dan akselerasi dilaksanakan tentatif sesuai kebutuhan penerbit. Apakah semua pengurusan dan bimbingan yang diberikan Perpustakaan Nasional berbayar? Berapa besaran biaya yang harus dikeluarkan penerbit? Tidak berbayar semua free atau gratis."
+        },
+        {
+            "judul": "Apakah Perpustakaan Nasional bisa merekomendasikan jika ada penerbit yang salah mengajukan permohonan untuk terbitannya?",
+            "deskripsi": "Jika penerbit mengajukan buku yang berisi kumpulan lagu yang berpartitur, akan disarankan untuk tidak upload data di akun ISBN tapi kirim email ke [emailprotected] dan Perpustakaan Nasional akan memberikan cantuman ISMN untuk jenis terbitan itu. Jika ada penerbit yang mendaftarkan terbitan berkala dengan frekuensi terbit teratur (seperti : majalah, bulletin, jurnal, dll) akan disarankan untuk mendaftarkan ISSN nya ke PDII-LIPI melaui web issn.pdii.lipi.go.id."
+        },
+        {
+            "judul": "Bagaimana mekanisme keikutsertaan dalam kegiatan pengadaan ebook iPusnas?",
+            "deskripsi": "a.  Penerbit mengajukan penawaran daftar judul kepada Tim Pengadaan iPusnas \\n b. Tim Pengadaan iPusnas akan melakukan seleksi  judul, dan menetapkan judul  yang akan dibeli. Kemudian daftar  akan dikirimkan balik ke penerbit yang ditembuskan ke Tim ISBN \\n c.  Penerbit menyampaikan daftar judul hasil seleksi kepada Tim ISBN dan Tim Aksaramaya \\n d.  Tim ISBN akan memberi Bimtek iPusnas untuk mendapatkan edukasi pendaftaran ISBN ebook secara expres \\n e.  Setelah Bimtek, penerbit akan mendapat fasilitas pendaftaran ebook iPusnas dengan akun khusus dan dapat mendaftarkannya ISBN ebook dalam juml"
+        }
+    ]
+}
