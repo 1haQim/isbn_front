@@ -125,6 +125,8 @@
                 </div>
             </section>
 
+            
+
 
             <section class="featured-section">
                 <div class="container">
@@ -167,7 +169,7 @@
                                                selengkapnya ...
                                             </p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Daftar Online</a>
+                                            <a href="pendaftaran_online.html" class="btn custom-btn mt-2 mt-lg-3">Daftar Online</a>
                                         </div>
                                     </div>
 
@@ -426,7 +428,7 @@
                                                             <!-- <b> 1. Pendahuluan </b><br> -->
                                                             Perpustakaan Nasional RI Sebagai badan yang ditunjuk oleh International ISBN Agency untuk mengelola International Standard Book Number (ISBN) di Indonesia sejak tahun 1986, telah menjalankan tugasnya mengelola dan mendistribusikan penomoran ISBN kepada seluruh penerbit yang ada di wilayah negara kesatuan Republik Indonesia.
                                                         </p>
-                                                        <a href="#section_2" class="btn custom-btn mt-2 mt-lg-3" style="background-color: #13547a;" onclick="statistik_read_all()">Selengkapnya</a>
+                                                        <a href="detail_statistik.html" class="btn custom-btn mt-2 mt-lg-3" style="background-color: #13547a;">Selengkapnya</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -750,7 +752,7 @@
                                 </div>
                             </div>
                             <center>
-                            <a href="#detail_faq" class="btn custom-btn mt-2 mt-lg-3" style="background-color: #13547a;" onclick="faq_read_section_detail()">Lihat semua pertanyaan</a>
+                            <a href="detail_faq.html" class="btn custom-btn mt-2 mt-lg-3" style="background-color: #13547a;">Lihat semua pertanyaan</a>
                             </center>
                         </div>
 
@@ -758,37 +760,6 @@
                 </div>
             </section>
             <!-- end pertanyaan -->
-
-            <!-- section pertanyaan detail -->
-            <section class="explore-section section-padding" id="detail_faq" style="display: none;">
-                <div class="container" >
-
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">FAQs</h1>
-                        <p>Pertanyaan pertanyaan yang sering diajukan</p>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-12 mb-12 mb-lg-12">
-                                <div class="custom-block bg-white shadow-lg">
-                                       
-                                    <table id="faq_detail" class="display responsive" style="width:100%;">
-                                        <thead>
-                                            <tr>
-                                                <th><center>Pertanyaan </center></th>
-                                                <th><center>Jawaban</center></th>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                        <!-- <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt=""> -->
-                                </div>
-                            </div>
-                            <center>
-                            <a href="#section_4" class="btn custom-btn mt-2 mt-lg-3" style="background-color: #13547a;" onclick="faq_read_section()">Tutup</a>
-                            </center>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END section pertanyaan detail -->
 
         </main>
 
@@ -1011,30 +982,6 @@
         </script>
         <!-- end -->
 
-        
-        <!-- js data table faq-->
-        <script>
-            $.ajax({
-                url: 'https://dummyjson.com/c/1722-ec23-4555-a072',
-                success: function(data) {
-                    console.log('AJAX response:', data.data); // Log the response data to the console
-                    var tableElement =  $('#faq_detail').DataTable({
-                        data: data.data,
-                        columns: [
-                            { data: 'judul' },
-                            { data: 'deskripsi' }
-                        ],
-                        lengthMenu: false 
-                    });
-
-                },
-                error: function(jqXHR, textStatus, errorThrown) {
-                    console.error('AJAX error:', textStatus, errorThrown); // Log any errors
-                }
-            });
-        </script>
-        <!-- end -->
-
         <script>
             //menampilkan data lengkap statistik
             function statistik_read_all() {
@@ -1047,18 +994,7 @@
                 document.getElementById('statistik_lengkap').style.display = 'none';
                 document.getElementById('statistik_singkat').style.display = '';
             }
-
-            //menampilkan data lengkap statistik
-            function faq_read_section_detail() {
-                document.getElementById('detail_faq').style.display = '';
-            }
-
-            //hide data lengkap statistik
-            function faq_read_section() {
-                document.getElementById('detail_faq').style.display = 'none';
-            }
         </script>
-
 
     </body>
 
