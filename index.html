@@ -73,7 +73,9 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_1">Home</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" onclick="openModal(this)">Panduan Layanan</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
                             </li>
@@ -85,6 +87,8 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_4">FAQs</a>
                             </li>
+
+                            
     
                             
                         </ul>
@@ -126,8 +130,6 @@
             </section>
 
             
-
-
             <section class="featured-section">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -761,6 +763,17 @@
             </section>
             <!-- end pertanyaan -->
 
+
+            <!-- Modal -->
+            <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img id="modalImage" src="images/maklumat_layanan.jpg" alt="Image Preview" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="site-footer section-padding">
@@ -870,6 +883,16 @@
         <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
         <script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
         <script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.dataTables.js"></script>
+
+        <!-- modal panduan layanan -->
+        <script>
+            function openModal(element) {
+                // Show the modal
+                var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+                myModal.show();
+            }
+        </script>
+
         <!-- js data table pencarian-->
         <script>
             function isNotEmptyString(value) {
