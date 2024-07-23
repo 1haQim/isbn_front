@@ -774,6 +774,17 @@
                     </div>
                 </div>
             </div>
+
+             <!-- Modal pengumuman-->
+            <div class="modal fade" id="imageModalPengumuman" tabindex="-1" aria-labelledby="imageModalLabelPengumuman" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img id="modalImage" src="images/HasilSKMISBN2024Periode1.jpg" alt="Image Preview" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="site-footer section-padding">
@@ -891,6 +902,16 @@
                 var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
                 myModal.show();
             }
+        </script>
+
+        <script>
+             $(document).ready(function() {
+                // Set the image source to the modal image jika besok menggunakan ajax
+                // document.getElementById('modalImage').src = imgSrc;
+                // Show the modal
+                var myModal = new bootstrap.Modal(document.getElementById('imageModalPengumuman'));
+                myModal.show();
+             })
         </script>
 
         <!-- js data table pencarian-->
