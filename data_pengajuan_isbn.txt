@@ -1,109 +1,112 @@
 {
     "data": [
         {
-            "id": 1,
-            "judul": "The Dragons's Time",
-            "kepengarangan": "penyunting, Fatimah Gonzalez; penyusun, Zainab Turner; ilustrator, Madison Perez",
-            "thn_terbit": "Aug-24",
-            "tgl_pengajuan": "7/2/2024, 5:51:47 AM"
+            "resi": "8JSTW6XVOQ",
+            "judul": "At the Crystal KaldarSedang diverifikasi oleh Dimas",
+            "kepengarangan": "penyusun, Harper Wibowo; alih bahasa, Grace Pangestu; alih bahasa, Dina Wijaya; penyunting, Aisyah Wijaya",
+            "penerbit": "Stiedemann, Botsford and Pfeffer",
+            "no_antrian": 4,
+            "thn_terbit": "Jul-24",
+            "tgl_pengajuan": "6/10/2024, 8:35:42 PM"
         },
         {
-            "id": 2,
-            "judul": "Was to Chase",
-            "kepengarangan": "alih bahasa, Scarlett Kurniawan; editor, Jafar Susanto; editor, Daniel Suryadi",
-            "thn_terbit": "Oct-24",
-            "tgl_pengajuan": "6/30/2024, 9:12:29 AM"
+            "resi": "E4PDY3BOTA",
+            "judul": "Face SealedSelesai",
+            "kepengarangan": "penyunting, Samuel Sitorus",
+            "penerbit": "Dicki - Kuhn",
+            "no_antrian": 10,
+            "thn_terbit": "Jul-24",
+            "tgl_pengajuan": "6/20/2024, 5:58:11 PM"
         },
         {
-            "id": 3,
-            "judul": "Nothing, Murder",
-            "kepengarangan": "alih bahasa, Omar Smith; penulis, Nur Yulianto; penyusun, Ryan Kristanto; editor, Anna Hidayat",
-            "thn_terbit": "Sep-24",
-            "tgl_pengajuan": "7/16/2024, 7:10:01 PM"
-        },
-        {
-            "id": 4,
-            "judul": "Modern is Amazing",
-            "kepengarangan": "penulis, Chloe Pangestu",
-            "thn_terbit": "Oct-24",
-            "tgl_pengajuan": "6/8/2024, 10:49:26 PM"
-        },
-        {
-            "id": 5,
-            "judul": "The Manhattan In the Dead-Alive Moon",
-            "kepengarangan": "penyusun, Hussein Perez; editor, Ahmad Fernando",
+            "resi": "F4MCJKWMAG",
+            "judul": "The Angelo that Would Not Forget IslandSedang diverifikasi oleh Ranita",
+            "kepengarangan": "ilustrator, Madison Thomas",
+            "penerbit": "Watsica - Collins",
+            "no_antrian": 9,
             "thn_terbit": "Jun-24",
-            "tgl_pengajuan": "7/3/2024, 1:10:01 AM"
+            "tgl_pengajuan": "6/1/2024, 4:49:28 PM"
         },
         {
-            "id": 6,
-            "judul": "Perfect Barsac, Perfect Blight",
-            "kepengarangan": "ilustrator, Nathan Wijaya; penulis, Abigail Susanto",
+            "resi": "I8YB0DAAAE",
+            "judul": "The Heist Job's SkunkSedang diverifikasi oleh Mulyadi",
+            "kepengarangan": "editor, William Nugroho; penyusun, Samira Campbell",
+            "penerbit": "Hilpert, Doyle and Mills",
+            "no_antrian": 1,
+            "thn_terbit": "Nov-24",
+            "tgl_pengajuan": "6/2/2024, 1:20:04 AM"
+        },
+        {
+            "resi": "M74CXT8EAA",
+            "judul": "Garden's NightmareSedang diverifikasi oleh Dimas",
+            "kepengarangan": "ilustrator, Abigail Lewis; penyusun, Lubna Parker; alih bahasa, Anthony Wright; penyusun, Joseph White",
+            "penerbit": "Koelpin LLC",
+            "no_antrian": 7,
+            "thn_terbit": "Dec-24",
+            "tgl_pengajuan": "7/1/2024, 9:35:18 AM"
+        },
+        {
+            "resi": "NT5WWUFYLF",
+            "judul": "Lamia Owned the Lady MacBethSelesai",
+            "kepengarangan": "ilustrator, Michael Pratama",
+            "penerbit": "Abbott - Wolff",
+            "no_antrian": 8,
             "thn_terbit": "Jul-24",
-            "tgl_pengajuan": "6/25/2024, 8:24:11 AM"
+            "tgl_pengajuan": "6/8/2024, 1:09:49 PM"
         },
         {
-            "id": 7,
-            "judul": "The Plan of the Agoroman",
-            "kepengarangan": "ilustrator, Tyler Walker; ilustrator, Scarlett Wijaya; penyusun, Charlotte Sihombing",
-            "thn_terbit": "Nov-24",
-            "tgl_pengajuan": "6/6/2024, 12:51:41 AM"
-        },
-        {
-            "id": 8,
-            "judul": "The Crystal Weaving Armageddon",
-            "kepengarangan": "alih bahasa, Samuel Wibowo",
-            "thn_terbit": "Nov-24",
-            "tgl_pengajuan": "7/11/2024, 12:53:18 PM"
-        },
-        {
-            "id": 9,
-            "judul": "Exile House",
-            "kepengarangan": "penyusun, Jasmine Prasetyo; editor, Firdaus Taylor",
+            "resi": "PCJCHCCAGY",
+            "judul": "HeavenHouseSedang diverifikasi oleh Mulyadi",
+            "kepengarangan": "penyunting, Rashid Suryono",
+            "penerbit": "Okuneva, Hane and Reichel",
+            "no_antrian": 5,
             "thn_terbit": "Sep-24",
-            "tgl_pengajuan": "6/25/2024, 3:58:47 AM"
+            "tgl_pengajuan": "6/1/2024, 3:03:21 PM"
         },
         {
-            "id": 10,
-            "judul": "Silver Hand, Silver Flame",
-            "kepengarangan": "penulis, Emma Anderson; penyunting, Joshua Utama; penyusun, Ella Jones; alih bahasa, Zahra Wilson",
-            "thn_terbit": "Oct-24",
-            "tgl_pengajuan": "6/17/2024, 8:05:15 AM"
+            "resi": "QHEMNBFV7H",
+            "judul": "They of SlabSedang diverifikasi oleh Ranita",
+            "kepengarangan": "ilustrator, Lina Johnson; editor, Ella Parker; penyunting, Isabella Pratama",
+            "penerbit": "Kohler - Baumbach",
+            "no_antrian": 3,
+            "thn_terbit": "Jun-24",
+            "tgl_pengajuan": "7/17/2024, 10:12:21 AM"
         },
         {
-            "id": 11,
-            "judul": "The Golden Spare Wall",
-            "kepengarangan": "penyunting, Ibrahim Campbell; ilustrator, Michael Thompson; ilustrator, Robert Purnama",
-            "thn_terbit": "Nov-24",
-            "tgl_pengajuan": "7/3/2024, 10:12:38 PM"
-        },
-        {
-            "id": 12,
-            "judul": "Aliens's Beard",
-            "kepengarangan": "penulis, Lily Thomas; penulis, Charlotte Garcia; alih bahasa, Muhammad Budianto; editor, Jafar Liem",
-            "thn_terbit": "Aug-24",
-            "tgl_pengajuan": "7/7/2024, 11:15:10 PM"
-        },
-        {
-            "id": 13,
-            "judul": "A Island of Escape",
-            "kepengarangan": "ilustrator, Salim Adams; penyusun, Yasin Moore; alih bahasa, Ryan Johnson",
+            "resi": "U0QRGRBJAR",
+            "judul": "The Satan that Killed the VampireSedang diverifikasi oleh Dimas",
+            "kepengarangan": "penyusun, Christian Johnson; penulis, Sara Hermawan; penyunting, Amina Roberts",
+            "penerbit": "Boyer Group",
+            "no_antrian": 2,
             "thn_terbit": "Jul-24",
-            "tgl_pengajuan": "6/6/2024, 4:26:07 PM"
+            "tgl_pengajuan": "7/4/2024, 9:29:02 PM"
         },
         {
-            "id": 14,
-            "judul": "Thing's Master",
-            "kepengarangan": "penyunting, Nadia Yulianto",
+            "resi": "XHCZZG8UP1",
+            "judul": "After a Death with a PlanSedang diverifikasi oleh Mulyadi",
+            "kepengarangan": "ilustrator, Grace Purnama",
+            "penerbit": "Wunsch - Becker",
+            "no_antrian": 6,
             "thn_terbit": "Sep-24",
-            "tgl_pengajuan": "6/22/2024, 10:49:37 AM"
+            "tgl_pengajuan": "6/9/2024, 12:49:35 PM"
         },
         {
-            "id": 15,
-            "judul": "Under the Hearts",
-            "kepengarangan": "alih bahasa, Ryan Young; editor, Jonathan Hill; ilustrator, Hassan Firmansyah; penyusun, Ava Fernando",
-            "thn_terbit": "Sep-24",
-            "tgl_pengajuan": "7/15/2024, 5:52:34 AM"
+            "resi": "ZNFZPVLGLC",
+            "judul": "The Agoroman that Should Be KingSelesai",
+            "kepengarangan": "editor, Imran Campbell",
+            "penerbit": "Lowe - Jast",
+            "no_antrian": 11,
+            "thn_terbit": "Nov-24",
+            "tgl_pengajuan": "6/6/2024, 4:11:06 AM"
+        },
+        {
+            "resi": "ZYIM80MGEW",
+            "judul": "Hamlet's EyeSedang diverifikasi oleh Ranita",
+            "kepengarangan": "ilustrator, James Parker",
+            "penerbit": "Carroll Inc",
+            "no_antrian": 12,
+            "thn_terbit": "Jun-24",
+            "tgl_pengajuan": "7/3/2024, 1:51:24 AM"
         }
     ]
 }

@@ -174,8 +174,11 @@
                                 <table id="table_filter" class="display responsive" style="width:100%;">
                                     <thead>
                                         <tr>
+                                            <th><center>No Resi </center></th>
                                             <th><center>Judul </center></th>
                                             <th><center>Kepengarang</center></th>
+                                            <th><center>Penerbit </center></th>
+                                            <th><center>NO. Antrian </center></th>
                                             <th><center>Tahun Terbit</center></th>
                                             <th><center>Tanggal Pengajuan</center></th>
                                         </tr>
@@ -312,7 +315,7 @@
                 var keyword_pencarian = $("#keyword_pencarian").val();
                 //get data pencarian
                 $.ajax({
-                    url: 'https://dummyjson.com/c/5c3a-e24d-42d1-8312',
+                    url: 'https://dummyjson.com/c/7417-1869-4e0a-83d5',
                     dataType: 'json',
                     serverSide: true,
                     success: function(data) {
@@ -327,8 +330,11 @@
                         var tableElement = $('#table_filter').DataTable({
                             data: data.data,
                             columns: [
+                                { data: 'resi' },
                                 { data: 'judul' },
                                 { data: 'kepengarangan' },
+                                { data: 'penerbit' },
+                                { data: 'no_antrian' },
                                 { data: 'thn_terbit' },
                                 { data: 'tgl_pengajuan' },
                             ],
