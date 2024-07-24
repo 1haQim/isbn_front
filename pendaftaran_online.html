@@ -11,7 +11,6 @@
 	<!-- Jquery -->
 	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
 	<!-- Main Style Css -->
-	<link rel="stylesheet" href="css/style.css"/>
 
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +28,14 @@
 		.form-control{
 			background-color: white;
 		}
+		label[for] {
+            color: black; 
+        }
 	</style>
+
+	
+	<link rel="stylesheet" href="css/style.css"/>
+
 
 
 </head>
@@ -115,13 +121,13 @@
 													<h5>Penerbit tergolong lembaga ?</h5>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option1" value="option1" required>
+															<input type="radio" name="options" id="option1" value="option1">
 															Lembaga Swasta
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option2" value="option2" required>
+															<input type="radio" name="options" id="option2" value="option2">
 															Lembaga Pemerintah
 														</label>
 													</div>
@@ -138,37 +144,37 @@
 													<h5>Jenis Penerbit ?</h5>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option1" value="option1" required>
+															<input type="radio" name="options" id="option1" value="option1">
 															Kementerian dan dinas terkait
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option2" value="option2" required>
+															<input type="radio" name="options" id="option2" value="option2">
 															Lembaga Pemerintah Non Kementerian dan unit terkait
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option1" value="option1" required>
+															<input type="radio" name="options" id="option1" value="option1">
 															Perguruan Tinggi Negeri
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option2" value="option2" required>
+															<input type="radio" name="options" id="option2" value="option2">
 															Pemerintah provinsi/Pemda dan dinas terkait
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option1" value="option1" required>
+															<input type="radio" name="options" id="option1" value="option1">
 															BUMD/BUMN
 														</label>
 													</div>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="radio" name="options" id="option2" value="option2" required>
+															<input type="radio" name="options" id="option2" value="option2">
 															UPT Penerbitan /Press/Publishing
 														</label>
 													</div>
@@ -176,7 +182,7 @@
 													<h5>File Penyataan</h5>
 													<div class="form-row">
 														<label class="list-group-item">
-															<input type="file" name="options" required>
+															<input type="file" name="options">
 														</label>
 													</div>
 													<!-- <p>Unduh Formulir</p> -->
@@ -192,82 +198,82 @@
 												<div class="inner">
 													<div class="form-row">
 														<div class="form-holder form-holder-2">
-															<label for="username">Penerbit*</label>
+															<label for="username" style="color:black">Penerbit*</label>
 															<input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder form-holder-2">
-															<label for="username">Username*</label>
+															<label for="username" style="color:black">Username*</label>
 															<input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
 														</div>
 													</div>
 													
 													<div class="form-row">
 														<div class="form-holder">
-															<label for="password">Password*</label>
+															<label for="password" style="color:black">Password*</label>
 															<input type="password" placeholder="Password" class="form-control" id="password" name="password" required >
 														</div>
 														<div class="form-holder">
-															<label for="confirm_password">Confirm Password*</label>
+															<label for="confirm_password" style="color:black">Confirm Password*</label>
 															<input type="password" placeholder="Confirm Password" class="form-control" id="confirm_password" name="confirm_password" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder form-holder-2">
-															<label for="username">Nama Gedung (jika ada)</label>
+															<label for="username" style="color:black">Nama Gedung (jika ada)</label>
 															<input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder form-holder-2">
-															<label for="username">Nama Jalan*</label>
+															<label for="username" style="color:black">Nama Jalan*</label>
 															<input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder">
-															<label for="password">provinsi*</label>
+															<label for="password" style="color:black">provinsi*</label>
 															<input type="password" placeholder="Password" class="form-control" id="password" name="password" required >
 														</div>
 														<div class="form-holder">
-															<label for="confirm_password">Kabupaten / Kota</label>
+															<label for="confirm_password" style="color:black">Kabupaten / Kota</label>
 															<input type="password" placeholder="Confirm Password" class="form-control" id="confirm_password" name="confirm_password" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder">
-															<label for="password">Kecamatan</label>
+															<label for="password" style="color:black">Kecamatan</label>
 															<input type="password" placeholder="Password" class="form-control" id="password" name="password" required >
 														</div>
 														<div class="form-holder">
-															<label for="confirm_password">Kelurahan</label>
+															<label for="confirm_password" style="color:black">Kelurahan</label>
 															<input type="password" placeholder="Confirm Password" class="form-control" id="confirm_password" name="confirm_password" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder">
-															<label for="email">Email*</label>
+															<label for="email" style="color:black">Email*</label>
 															<input type="email" placeholder="Your Email" class="form-control" id="email" name="email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
 														</div>
 														<div class="form-holder">
-															<label for="email">Email Alternatif*</label>
+															<label for="email" style="color:black">Email Alternatif*</label>
 															<input type="email" placeholder="Your Email" class="form-control" id="email" name="email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder form-holder-2">
-															<label for="username">Nama Admin</label>
+															<label for="username" style="color:black">Nama Admin</label>
 															<input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
 														</div>
 													</div>
 													<div class="form-row">
 														<div class="form-holder">
-															<label for="password">Telephone</label>
+															<label for="password" style="color:black">Telephone</label>
 															<input type="password" placeholder="Password" class="form-control" id="password" name="password" required >
 														</div>
 														<div class="form-holder">
-															<label for="confirm_password">Kode Pos</label>
+															<label for="confirm_password" style="color:black">Kode Pos</label>
 															<input type="password" placeholder="Confirm Password" class="form-control" id="confirm_password" name="confirm_password" required>
 														</div>
 													</div>
