@@ -1,0 +1,109 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "judul": "The Dragons's Time",
+            "kepengarangan": "penyunting, Fatimah Gonzalez; penyusun, Zainab Turner; ilustrator, Madison Perez",
+            "thn_terbit": "Aug-24",
+            "tgl_pengajuan": "7/2/2024, 5:51:47 AM"
+        },
+        {
+            "id": 2,
+            "judul": "Was to Chase",
+            "kepengarangan": "alih bahasa, Scarlett Kurniawan; editor, Jafar Susanto; editor, Daniel Suryadi",
+            "thn_terbit": "Oct-24",
+            "tgl_pengajuan": "6/30/2024, 9:12:29 AM"
+        },
+        {
+            "id": 3,
+            "judul": "Nothing, Murder",
+            "kepengarangan": "alih bahasa, Omar Smith; penulis, Nur Yulianto; penyusun, Ryan Kristanto; editor, Anna Hidayat",
+            "thn_terbit": "Sep-24",
+            "tgl_pengajuan": "7/16/2024, 7:10:01 PM"
+        },
+        {
+            "id": 4,
+            "judul": "Modern is Amazing",
+            "kepengarangan": "penulis, Chloe Pangestu",
+            "thn_terbit": "Oct-24",
+            "tgl_pengajuan": "6/8/2024, 10:49:26 PM"
+        },
+        {
+            "id": 5,
+            "judul": "The Manhattan In the Dead-Alive Moon",
+            "kepengarangan": "penyusun, Hussein Perez; editor, Ahmad Fernando",
+            "thn_terbit": "Jun-24",
+            "tgl_pengajuan": "7/3/2024, 1:10:01 AM"
+        },
+        {
+            "id": 6,
+            "judul": "Perfect Barsac, Perfect Blight",
+            "kepengarangan": "ilustrator, Nathan Wijaya; penulis, Abigail Susanto",
+            "thn_terbit": "Jul-24",
+            "tgl_pengajuan": "6/25/2024, 8:24:11 AM"
+        },
+        {
+            "id": 7,
+            "judul": "The Plan of the Agoroman",
+            "kepengarangan": "ilustrator, Tyler Walker; ilustrator, Scarlett Wijaya; penyusun, Charlotte Sihombing",
+            "thn_terbit": "Nov-24",
+            "tgl_pengajuan": "6/6/2024, 12:51:41 AM"
+        },
+        {
+            "id": 8,
+            "judul": "The Crystal Weaving Armageddon",
+            "kepengarangan": "alih bahasa, Samuel Wibowo",
+            "thn_terbit": "Nov-24",
+            "tgl_pengajuan": "7/11/2024, 12:53:18 PM"
+        },
+        {
+            "id": 9,
+            "judul": "Exile House",
+            "kepengarangan": "penyusun, Jasmine Prasetyo; editor, Firdaus Taylor",
+            "thn_terbit": "Sep-24",
+            "tgl_pengajuan": "6/25/2024, 3:58:47 AM"
+        },
+        {
+            "id": 10,
+            "judul": "Silver Hand, Silver Flame",
+            "kepengarangan": "penulis, Emma Anderson; penyunting, Joshua Utama; penyusun, Ella Jones; alih bahasa, Zahra Wilson",
+            "thn_terbit": "Oct-24",
+            "tgl_pengajuan": "6/17/2024, 8:05:15 AM"
+        },
+        {
+            "id": 11,
+            "judul": "The Golden Spare Wall",
+            "kepengarangan": "penyunting, Ibrahim Campbell; ilustrator, Michael Thompson; ilustrator, Robert Purnama",
+            "thn_terbit": "Nov-24",
+            "tgl_pengajuan": "7/3/2024, 10:12:38 PM"
+        },
+        {
+            "id": 12,
+            "judul": "Aliens's Beard",
+            "kepengarangan": "penulis, Lily Thomas; penulis, Charlotte Garcia; alih bahasa, Muhammad Budianto; editor, Jafar Liem",
+            "thn_terbit": "Aug-24",
+            "tgl_pengajuan": "7/7/2024, 11:15:10 PM"
+        },
+        {
+            "id": 13,
+            "judul": "A Island of Escape",
+            "kepengarangan": "ilustrator, Salim Adams; penyusun, Yasin Moore; alih bahasa, Ryan Johnson",
+            "thn_terbit": "Jul-24",
+            "tgl_pengajuan": "6/6/2024, 4:26:07 PM"
+        },
+        {
+            "id": 14,
+            "judul": "Thing's Master",
+            "kepengarangan": "penyunting, Nadia Yulianto",
+            "thn_terbit": "Sep-24",
+            "tgl_pengajuan": "6/22/2024, 10:49:37 AM"
+        },
+        {
+            "id": 15,
+            "judul": "Under the Hearts",
+            "kepengarangan": "alih bahasa, Ryan Young; editor, Jonathan Hill; ilustrator, Hassan Firmansyah; penyusun, Ava Fernando",
+            "thn_terbit": "Sep-24",
+            "tgl_pengajuan": "7/15/2024, 5:52:34 AM"
+        }
+    ]
+}
