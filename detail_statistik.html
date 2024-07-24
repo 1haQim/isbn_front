@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/logo_aja.png" type="image/x-icon">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>ISBN</title>
+
+        <!-- CSS FILES -->        
+         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">  
+        
+        <!-- data table -->
+       
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
+ 
+    <style>
+        .scrollspy-example {
+            max-height: 550px;
+            margin-bottom: 10px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .fixed-sidebar {
+            position: fixed;
+            top: 20px;
+            z-index: 1000;
+        }
+        .content-section {
+            height: 800px; /* For demonstration purposes */
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+        <!-- end datatable -->
+
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" class="" alt="" style="width: 65%;">
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                            </li>
+    
+                            
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <section class="hero-section justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">Statistik</h1>
+
+                            <h6 class="text-white text-center">International Standard Book Number</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-section" style="background-color: #f0f8ff;" >
+                <div class="container" >
+                    <div class="row ">
+                        <div class="col-lg-12 col-md-12 col-12 mb-12 mb-lg-12">
+                            <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Terbitan Terbanyak</h5>
+                                        <p class="mb-0">
+                                            Informasi tentang Prosedur Pendaftaran Penerbit dan Permohonan ISBN
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="explore-section section-padding" >
+                <div class="container" >
+                    <div class="col-12 text-center">
+                        <div class="col-lg-12 col-md-12 col-12 mb-12 mb-lg-12">
+                            <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-0">Terbitan Terbanyak</h5>
+                                        <p class="mb-0">
+                                            Informasi tentang Prosedur Pendaftaran Penerbit dan Permohonan ISBN
+                                        </p>
+                                    </div>
+                                </div>
+                                <canvas id="myChart" width="400" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explore-section section-padding" style="margin-top: -150px;">
+                <div class="container" >
+                    <div class="col-12 text-center">
+                        <div class="col-lg-12 col-md-12 col-12 mb-12 mb-lg-12">
+                            <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-0">Penerbit Terbanyak</h5>
+                                        <p class="mb-0">
+                                            Informasi tentang Prosedur Pendaftaran Penerbit dan Permohonan ISBN
+                                        </p>
+                                    </div>
+                                </div>
+                                <canvas id="myChartPenerbit" width="400" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explore-section section-padding" style="margin-top: -150px;">
+                <div class="container" >
+                    <div class="col-12 text-center">
+                        <div class="col-lg-12 col-md-12 col-12 mb-12 mb-lg-12">
+                            <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-0">ISBN Pertahun</h5>
+                                        <p class="mb-0">
+                                            Informasi tentang Prosedur Pendaftaran Penerbit dan Permohonan ISBN
+                                        </p>
+                                    </div>
+                                </div>
+                                <canvas id="myChartIsbnPertahun" width="400" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             
+
+
+        </main>
+
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <img src="images/logo_aja.png" class="" alt="" style="width: 25%;">
+                            <span>I S B N </span>
+                        </a>
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <p class="copyright-text mt-lg-5 mt-4">
+                                PERPUSTAKAAN NASIONAL REPUBLIK INDONESIA
+                                Pusat Bibliografi dan Pengolahan
+                                Bahan Perpustakaan
+                                </p>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <p class="copyright-text ">
+                                    Jl. Salemba Raya 28A
+                                    Daerah khusus Ibukota Jakarta 10430 - Indonesia
+                                </p>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <p class="copyright-text mt-lg-5 mt-4">
+                                    Tim ISBN/KDT ©2024.
+                                </p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Jam Layanan</h6>
+                        <p class="text-white d-flex">
+                            <p class="copyright-text">
+                                Permohonan ISBN dan KDT dilayani setiap hari kerja <br>
+                                Senin - Jumat <br>
+                                09.00 s.d 15.00 WIB
+                            </p>
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Kontak Kami</h6>
+
+                        <p class="text-white d-flex">
+                            <p class="copyright-text">
+                                Konfirmasi dan pengaduan:
+                            </p>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:isbn@mail.perpusnas.go.id" class="site-footer-link">
+                                isbn@mail.perpusnas.go.id
+                            </a>
+                        </p>
+                         <p class="text-white d-flex">
+                            <a href="isbn.perpusnas.go.id" class="site-footer-link">
+                                isbn.perpusnas.go.id
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Link Terkait</h6>
+
+                        <p class="text-white d-flex">
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                Perpusnas
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:isbn@mail.perpusnas.go.id" class="site-footer-link">
+                                Deposit perpusnas
+                            </a>
+                        </p>
+                         <p class="text-white d-flex">
+                            <a href="isbn.perpusnas.go.id" class="site-footer-link">
+                                Bibliografi Nasional RI
+                            </a>
+                        </p>
+                         <p class="text-white d-flex">
+                            <a href="isbn.perpusnas.go.id" class="site-footer-link">
+                                Pusbangkol
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+         <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+        <script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
+        <script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.dataTables.js"></script>
+        <!-- js data table pencarian-->
+        <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var data = {
+                "data": [
+                    {"provinsi": "Jakarta", "jumlah_penerbit": 120},
+                    {"provinsi": "Jawa Barat", "jumlah_penerbit": 150},
+                    {"provinsi": "Jawa Tengah", "jumlah_penerbit": 80},
+                    {"provinsi": "Jawa Timur", "jumlah_penerbit": 110},
+                    {"provinsi": "Banten", "jumlah_penerbit": 70},
+                    {"provinsi": "Bali", "jumlah_penerbit": 60},
+                    {"provinsi": "Yogyakarta", "jumlah_penerbit": 90},
+                    {"provinsi": "Sumatera Utara", "jumlah_penerbit": 65},
+                    {"provinsi": "Riau", "jumlah_penerbit": 50},
+                    {"provinsi": "Sulawesi Selatan", "jumlah_penerbit": 45}
+                ]
+            };
+            
+            var labels = data.data.map(item => item.provinsi);
+            var jumlahPenerbit = data.data.map(item => item.jumlah_penerbit);
+            
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Jumlah Penerbit Buku',
+                        data: jumlahPenerbit,
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <script>
+            var ctx = document.getElementById('myChartPenerbit').getContext('2d');
+            var data = {
+                "data": [
+                    {"provinsi": "Aceh", "jumlah_penerbit": 50},
+                    {"provinsi": "Sumatera Barat", "jumlah_penerbit": 70},
+                    {"provinsi": "Lampung", "jumlah_penerbit": 65},
+                    {"provinsi": "Jawa Barat", "jumlah_penerbit": 200},
+                    {"provinsi": "Jawa Timur", "jumlah_penerbit": 180},
+                    {"provinsi": "Kalimantan Timur", "jumlah_penerbit": 90},
+                    {"provinsi": "Sulawesi Tengah", "jumlah_penerbit": 55},
+                    {"provinsi": "Papua", "jumlah_penerbit": 30},
+                    {"provinsi": "Bali", "jumlah_penerbit": 75},
+                    {"provinsi": "NTT", "jumlah_penerbit": 40}
+                ]
+            };
+            
+            var labels = data.data.map(item => item.provinsi);
+            var jumlahPenerbit = data.data.map(item => item.jumlah_penerbit);
+            
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Jumlah Penerbit Buku',
+                        data: jumlahPenerbit,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <!-- isbn pertahun -->
+        <script>
+            var ctx = document.getElementById('myChartIsbnPertahun').getContext('2d');
+            var data = {
+                "data": [
+                    {"tahun": 2020, "jumlah_buku": 500, "jumlah_isbn": 450},
+                    {"tahun": 2021, "jumlah_buku": 520, "jumlah_isbn": 470},
+                    {"tahun": 2022, "jumlah_buku": 540, "jumlah_isbn": 480},
+                    {"tahun": 2023, "jumlah_buku": 600, "jumlah_isbn": 530},
+                    {"tahun": 2024, "jumlah_buku": 650, "jumlah_isbn": 600}
+                ]
+            };
+            
+            var labels = data.data.map(item => item.tahun);
+            var jumlahBuku = data.data.map(item => item.jumlah_buku);
+            var jumlahIsbn = data.data.map(item => item.jumlah_isbn);
+            
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Jumlah Buku',
+                            data: jumlahBuku,
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        },
+                        {
+                            label: 'Jumlah ISBN',
+                            data: jumlahIsbn,
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+
+    </body>
+
+
+</html>
